@@ -7,7 +7,7 @@
 
 A **real-time GPS tracking system** built with ESP32 and integrated with multiple cloud platforms for data visualization and notifications.
 
-![GPS Tracker Demo](https://via.placeholder.com/800x400/4285f4/ffffff?text=ESP32+GPS+Tracker+Demo)
+![GPS Tracker Demo](https://www.linkedin.com/feed/update/urn:li:activity:7356381770189033473/)
 
 ## ✨ Features
 
@@ -236,8 +236,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-6. 
-<iframe src="https://app.arduino.cc/sketches/6d6add51-a96c-4382-b37d-c2d46938f658?nav=Files&view-mode=embed" style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+
 
 ## 🙏 Acknowledgments
 
@@ -254,7 +253,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 **Your Name** - [@Pro_layjit14](https://x.com/Pro_layjit14) - prolayjitbiswas14112004@gmail.com
 
 Project Link: [https://github.com/Prolayjit-B14/GPS_Email_Map](https://github.com/Prolayjit-B14/GPS_Email_Map)
-
+Arduino Sketch : [https://app.arduino.cc/sketches/6d6add51-a96c-4382-b37d-c2d46938f658?nav=Files&view-mode=preview](https://app.arduino.cc/sketches/6d6add51-a96c-4382-b37d-c2d46938f658?nav=Files&view-mode=preview)
 ---
 
 ⭐ **Star this repository if you found it helpful!**
