@@ -3,7 +3,7 @@
 [![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
 [![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/)
 [![GPS](https://img.shields.io/badge/GPS-4285F4?style=for-the-badge&logo=google-maps&logoColor=white)](https://en.wikipedia.org/wiki/Global_Positioning_System)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 
 A **real-time GPS tracking system** built with ESP32 and integrated with multiple cloud platforms for data visualization and notifications.
 
@@ -250,13 +250,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-**Your Name** - [@yourhandle](https://twitter.com/yourhandle) - your.email@example.com
+**Your Name** - [@Pro_layjit14](https://x.com/Pro_layjit14) - prolayjitbiswas14112004@gmail.com
 
-Project Link: [https://github.com/yourusername/esp32-gps-tracker](https://github.com/yourusername/esp32-gps-tracker)
+Project Link: [https://github.com/Prolayjit-B14/GPS_Email_Map](https://github.com/Prolayjit-B14/GPS_Email_Map)
 
 ---
 
 ⭐ **Star this repository if you found it helpful!**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/esp32-gps-tracker.svg?style=social&label=Star)](https://github.com/yourusername/esp32-gps-tracker)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/esp32-gps-tracker.svg?style=social&label=Fork)](https://github.com/yourusername/esp32-gps-tracker/fork)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/esp32-gps-tracker.svg?style=social&label=Star)](https://github.com/Prolayjit-B14/GPS_Email_Map)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/esp32-gps-tracker.svg?style=social&label=Fork)](https://github.com/Prolayjit-B14/GPS_Email_Map/fork)
