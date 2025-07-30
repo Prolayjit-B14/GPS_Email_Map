@@ -78,9 +78,9 @@ const unsigned long LED_FAST_BLINK_INTERVAL = 200;  // 200ms for fast blink
 //                    NETWORK CONFIGURATION
 // ==================================================================
 
-// WiFi Network Credentials
-const char* ssid = "Redmi Note 11 Pro+ 5G";
-const char* password = "@polu1411P";
+// WiFi Credentials
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 // ==================================================================
 //                   EMAIL CONFIGURATION (Gmail SMTP)
@@ -88,21 +88,21 @@ const char* password = "@polu1411P";
 
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
-#define AUTHOR_EMAIL "prolayjitbiswas14112004@gmail.com"
-#define AUTHOR_PASSWORD "lspi lxjl lkcb jajj"
+#define AUTHOR_EMAIL "your-email@gmail.com"
+#define AUTHOR_PASSWORD "your-app-password"  // Use App Password, not regular password
 
 // Email Recipients
 const char* emailRecipients[][2] = {
   { "Primary Contact", "prolayjitbiswas14112004@gmail.com" },
-  { "Friend", "contact.prolay@gmail.com" }
+  { "Friend", "your.name@gmail.com" }
 };
 
 // ==================================================================
 //                   GEOLINKER CONFIGURATION
 // ==================================================================
 
-const char* geoApiKey = "kfwEjIoz7X0N";
-const char* deviceID = "GPS_Tracker";
+const char* geoApiKey = "YOUR_GEOLINKER_API_KEY";
+const char* deviceID = "YOUR_DEVICE_ID";
 const uint16_t updateInterval = 30;  // seconds for cloud updates
 const bool enableOfflineStorage = true;
 const uint8_t offlineBufferLimit = 50;
@@ -493,7 +493,7 @@ String createLocationHTML() {
   String googleMapsURL = "https://www.google.com/maps/search/?api=1&query=" + String(currentLatitude, 6) + "," + String(currentLongitude, 6);
 
   // Using LocationIQ API instead of Google Maps API
-  const String locationIQ_API_KEY = "pk.6505e3b91d2cd482cf3aa33b71926917";
+  const String locationIQ_API_KEY = "YOUR_LOCATIONIQ_API_KEY";
   String staticMapURL = "https://maps.locationiq.com/v3/staticmap?key=" + locationIQ_API_KEY + "&center=" + String(currentLatitude, 6) + "," + String(currentLongitude, 6) + "&zoom=16&size=600x300&markers=icon:large-red-cutout|" + String(currentLatitude, 6) + "," + String(currentLongitude, 6) + "&format=png";
 
   String html = "<!DOCTYPE html><html lang='en'><head>";
