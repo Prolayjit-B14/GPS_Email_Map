@@ -42,11 +42,11 @@ graph TD
 
 | Component | Specification | Approx. Cost |
 |-----------|---------------|--------------|
-| ESP32 Development Board | Any ESP32 variant | $8-12 |
-| GPS Module | NMEA compatible (NEO-6M/8M) | $10-15 |
-| Jumper Wires | Male-to-Female | $2-3 |
-| Breadboard (Optional) | Half-size | $3-5 |
-| **Total** | | **~$25-30** |
+| ESP32 Development Board | Any ESP32 variant | ₹340 |
+| GPS Module | NMEA compatible (NEO-6M/8M) | ₹230 |
+| Jumper Wires | Male-to-Female | ₹10 |
+| Breadboard (Optional) | Half-size | ₹30 |
+| **Total** | | **~₹600** |
 
 ## 📌 Pin Connections
 
@@ -62,7 +62,7 @@ GND       -->  GND
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/esp32-gps-tracker.git
+git clone https://github.com/Prolayjit-B14/GPS_Email_Map.git
 cd esp32-gps-tracker
 ```
 
@@ -71,7 +71,7 @@ cd esp32-gps-tracker
 - Power up the ESP32 via USB
 
 ### 3. Configure Credentials
-Edit the configuration section in `gps_tracker.ino`:
+Edit the configuration section in `gps_tracker_alert.ino`:
 
 ```cpp
 // WiFi Credentials
@@ -209,7 +209,6 @@ geo.setDebugLevel(DEBUG_VERBOSE);
 esp32-gps-tracker/
 ├── gps_tracker.ino          # Main Arduino sketch
 ├── README.md                # This file
-├── LICENSE                  # MIT License
 ├── docs/
 │   ├── hardware-setup.md    # Detailed hardware guide
 │   ├── api-setup.md         # API configuration guide
@@ -224,10 +223,6 @@ esp32-gps-tracker/
 
 ## 🔮 Future Enhancements
 
-- [ ] **Geofencing alerts** - Entry/exit notifications
-- [ ] **Battery monitoring** - Low power warnings
-- [ ] **Panic button** - Emergency SOS functionality
-- [ ] **Multiple device support** - Fleet tracking
 - [ ] **Mobile app** - Dedicated tracking application
 - [ ] **Weather integration** - Location-based weather data
 - [ ] **Route optimization** - Shortest path suggestions
@@ -242,14 +237,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
 - **Arduino Community** - For the excellent development platform
 - **Circuit Digest** - For GeoLinker cloud visualization service
+-   Documentation : https://circuitdigest.com/microcontroller-projects/simple-gps-tracker-using-esp32-visualize-data-on-map
+-   Repo : https://github.com/Circuit-Digest/Simple-GPS-Tracker-using-ESP32---Visualize-Data-on-Map/tree/main/GPS_Tracker_Code_V2
 - **TinyGPS++ Library** - For robust GPS data parsing
 - **LocationIQ** - For cost-effective mapping services
 - **ESP32 Community** - For extensive documentation and support
